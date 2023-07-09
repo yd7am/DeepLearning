@@ -8,3 +8,4 @@ datasets: https://www.kaggle.com/datasets/splcher/animefacedataset?resource=down
 ![Alt text](Epoch_50.png)
 ![Alt text](Epoch_100.png)
 ![Alt text](LOSS.png)
+## mode collapse
