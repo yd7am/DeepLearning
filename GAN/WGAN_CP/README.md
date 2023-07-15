@@ -1,7 +1,7 @@
 # GAN
 $$\min\limits_{G}\max\limits_{D}V(G,D) = E_{x\thicksim p_{data}(x)}[log(D(x))] + E_{z\thicksim p_z(z)}[log(1 - D(G(z)))]$$
 
-> 由于原始GAN中的损失函数在最优判别器条件下，损失函数等价于数据真实分布$P_{data}$和生成器分布$P_{g}$的JS散度，又由于数据分布是高维空间中的低维流形，$P_{data}$和$P_{g}$不重叠，导致JS散度是常数从而无法训练（梯度消失）。
+> 由于原始GAN中的损失函数在最优判别器条件下，损失函数等价于数据真实分布$ P_{data}$ 和生成器分布$P_{g}$的JS散度，又由于数据分布是高维空间中的低维流形，$P_{data}$和$P_{g}$不重叠，导致JS散度是常数从而无法训练（梯度消失）。
 $$
 \min\limits_{G}\max\limits_{D}V(G,D) = E_{x\thicksim p_{data}}[log(D(x))] + E_{x\thicksim p_g}[-log(D(x)]
 $$
