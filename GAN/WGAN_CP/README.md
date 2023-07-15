@@ -32,6 +32,8 @@ $$
 ![Alt text](./results/Train_hist.png)
 ## process
 ![Alt text](./results/results.gif)
+## result
+![Alt text](./results/1000.png)
 # References
 [1] Wasserstein GAN <br>
 [2] https://github.com/luzhixing12345/Anime-WGAN/
