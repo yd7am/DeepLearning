@@ -1,5 +1,5 @@
 # DeepLearning
-## SISR
+## Single image super-resolution(SISR)
 ### SRCNN
 Ref: Image Super-Resolution Using Deep Convolutional Networks
 ### SRGAN
