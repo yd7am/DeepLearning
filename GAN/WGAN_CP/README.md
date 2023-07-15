@@ -13,7 +13,9 @@ $$
 $$
 W(p_g,p_r) = \inf_{\gamma\in\prod}E_{(x^g,x^r)\thicksim\gamma}||x^g,x^r||
 $$
+
 >Wasserstein距离相比KL散度、JS散度的优越性在于,即便两个分布没有重叠,Wasserstein距离仍然能够反映它们的远近。
+
 $$
 K\cdot W(p_g,p_r) \approx \sup\limits_{f\in 1-Lipschitz}E_{x\thicksim p_r(x)}[f_w(x)]-E_{x\thicksim p_g(x)}[f_w(x)]
 $$
