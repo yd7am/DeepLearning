@@ -9,3 +9,5 @@ Ref: Photo-Realistic Single Image Super-Resolution Using a Generative Adversaria
 Ref: Generative Adversarial Nets
 ### DCGAN
 Ref: Unsupervised representation learning with deep convolutional generative adversarial networks
+### WGAN
+Ref: Wasserstein GAN
