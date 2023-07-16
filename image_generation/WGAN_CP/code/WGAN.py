@@ -5,6 +5,11 @@ from os.path import join
 from os import listdir
 from PIL import Image
 import torch
+from torch import nn
+import matplotlib.pyplot as plt
+from tqdm import tqdm
+import numpy as np
+import time
 
 class TrainDatasetFromFolder(Dataset):
     def __init__(self, dataset_dir):
@@ -28,9 +33,6 @@ dsets = TrainDatasetFromFolder(dsets_paths)
 dlsets = DataLoader(dsets, batch_size=64, shuffle=True, num_workers=4)
 
 # 模型构建
-import torch
-from torch import nn
-
 # 生成器
 class Generator(nn.Module):
     def __init__(self):
@@ -100,8 +102,6 @@ D = Discriminator().to(device)
 G_optimizer = torch.optim.Adam(G.parameters(), lr=learning_rate, betas=(0.5, 0.999))
 D_optimizer = torch.optim.Adam(D.parameters(), lr=learning_rate, betas=(0.5, 0.999))
 
-import matplotlib.pyplot as plt
-
 def show_result(z, epoch, size_figure_grid=3):
     G.eval()
     test_images = G(z)
@@ -116,11 +116,6 @@ def show_result(z, epoch, size_figure_grid=3):
 
     plt.savefig(f'./results/{epoch+1}.png')
     plt.close('all')
-
-from tqdm import tqdm
-import numpy as np
-import time
-import imageio
 
 results = {'d_loss': [], 'g_loss': []}
 size_figure_grid = 7
