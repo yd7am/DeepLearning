@@ -11,3 +11,24 @@ Ref: Generative Adversarial Nets
 Ref: Unsupervised representation learning with deep convolutional generative adversarial networks
 ### WGAN
 Ref: Wasserstein GAN
+## Instance Segmentation
+### Mask R-CNN
+## Multi Object Tracking
+### SORT
+# MachineLearning
+### AdaBoost
+### DBSCAN
+### GMM
+### PCA
+### k-means
+### LVQ
+### LDA
+### LR
+### naive-bayes
+### MLP
+### SVM
+# Python
+## data_visualization
+## pandas
+## numpy
+## matplotlib
