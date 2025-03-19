@@ -12,7 +12,8 @@ Ref: Generative Adversarial Nets
 Ref: Unsupervised representation learning with deep convolutional generative adversarial networks
 ### WGAN
 Ref: Wasserstein GAN
-![Alt text](image_generation/results/results.gif)
+![Alt text](image_generation/WGAN_CP/results/results.gif)
+
 ## Instance Segmentation
 ### Mask R-CNN
 ## Multi Object Tracking
